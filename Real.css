@@ -1,0 +1,82 @@
+/** Basic Css **/
+
+body{background-color:white; transition:all 1.5s ease;}
+h1{position: static; text-align:center; font-family: 'Aldrich',"ink free", sans-serif; color: black; border-bottom-style: dotted; border-bottom-color:black;  }
+h2{text-align:center;  font-family: 'Aldrich',"ink free", sans-serif; color: black; text-decoration:underline;}
+p{font-family: "Aldrich","ink free",sans-serif; font-style: italic; font-size: 14px; }
+ul{list-style-type:square}
+.PagesToGo:hover{background-color:#97f7cc; font-size: 18px;}
+.PagesToGo:active{background-color:blue; font-size: 18px;}
+
+/** Text on Hover **/
+
+.hide1 {
+  display: none;
+}
+
+
+.Show1:hover +.hide1 {
+  display: block;
+  color: black;
+}
+
+.hide2 {
+  display: none;
+}
+
+
+.Show2:hover +.hide2 {
+  display: block;
+  color: black;
+}
+
+.hide3 {
+  display: none;
+}
+
+
+.Show3:hover +.hide3 {
+  display: block;
+  color: black;
+}
+
+.hide4 {
+  display: none;
+}
+
+
+.Show4:hover +.hide4 {
+  display: block;
+  color: black;
+}
+
+.hide5 {
+  display: none;
+}
+
+
+.Show5:hover +.hide5 {
+  display: block;
+  color: black;
+}
+
+/** SVG **/
+#svgJS hover line{
+    fill: none;
+    stroke-width: 3;
+    stroke: black;
+}
+
+svgJS:hover g text,
+#svgJS g:hover text{
+    font-weight: bold;
+}
+
+#svgJS g:hover polygon,
+#svgJS g:hover rect,
+#svgJS g:hover polygon,
+#svgJS g:focus rect{
+    fill: rgba(13, 11, 133, 0.3);
+    stroke: grey;
+    stroke-width: 4;
+}
